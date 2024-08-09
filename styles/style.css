@@ -359,3 +359,111 @@ background: rgba(0, 76, 232, 0.05);
 }
 
 
+.main4 {
+    width: 90%; 
+    max-width: 1250px; 
+    height: 350px;
+    margin: 0 auto; 
+    border-radius: 16px;  
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./handshake.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    border-radius: 16px;
+    
+}
+
+.border4 h2 {
+
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 30px;
+}
+
+.border4 p {
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+.feedback{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+    width: 60%;
+    margin-left: 270px;
+    height: 100px;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+
+.submit {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.feedback-submit:hover {
+    background-color: #333;
+}
+
+.main5 {
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     align-items: flex-start;
+    padding: 40px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 40px ;
+}
+.main5 h3 {
+margin: 0;
+font-size: 16px;
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+margin-right: 800px;
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
